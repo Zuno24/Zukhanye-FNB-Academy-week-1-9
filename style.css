@@ -1,46 +1,33 @@
-.galary img{
-    width: 100%;
-}
-
-h2{
-    font-family: Impact, fantasy;
+table{
+    color: #fff;
     text-align: center;
-    font-size: 30px;
-    color: cornflowerblue;
-    font-style: italic;
+    border-collapse: collapse;
+    font: normal 3em Arial, Helvetica, sans-serif;   
 }
 
-h4{
-    font-family: Impact, fantasy;
-    font-size: 20px;
-    font-style: italic;
-    color: cornflowerblue;
+tr{
+    height: 16.02 vh;
+    background-color: #4e493d;
 }
 
-p{
-    font-family: Helvetica, sans-serif;
+td{
+    width: 25vw;
+    border: 1px solid #4e493d;
 }
-
-#menu{
+#inputBox{
+    background-color: #4e493d;
+    text-align: right;
     width: 100%;
-    height: 40px;
-    background-color: cornflowerblue;
-    padding-top: 12px;
+    font-size: 2em;
+    color: #fff;
+    border: 0px;
 }
-
-#menu a{
-    color: #ffffff;
-    font-family: Helvetica, sans-serif;
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 800;
-    
-    padding-left: 20px;
-    padding-right: 20px;
-    
+.digitButton{
+    background-color: #807e89;
 }
-
-#menu a:hover{
-    color: #5077bd;
-    
+.operatorButton{
+    background-color: #ff9e06;
+}
+.ACButton{
+    background-color: #656140;
 }
